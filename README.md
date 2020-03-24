@@ -34,7 +34,7 @@ change the region.... and so on
 
 ## script to setup vm for folding@home
 
-You can copy paste (Ctrl+C and Ctrl+V) the oneline command or do it [Step by Step](https://github.com/Korny666/fah/blob/master/README.md#step-by-step)
+You can copy paste (Ctrl+C and Ctrl+V) the [One-Liner](https://github.com/Korny666/fah/blob/master/README.md#one-liner) command or do it [Step by Step](https://github.com/Korny666/fah/blob/master/README.md#step-by-step)
 ### One-Liner
 ```sh
 sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install bzip2 htop less && wget https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.5/latest.deb && sudo dpkg -i --force-depends latest.deb
