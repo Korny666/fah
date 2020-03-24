@@ -36,17 +36,24 @@ change the region.... and so on
 
 Download the script
 ```sh
-wget https://github.com/Korny666/fah/blob/master/updateAndInstallFAH.sh
+wget https://raw.githubusercontent.com/Korny666/fah/master/updateAndInstallFAH.sh
 ```
 grant executable rights
 ```sh
-chmod +x updateAndInstalFAH.sh
+chmod +x updateAndInstallFAH.sh
 ```
 execute
 ```sh
-./updateAndInstalFAH.sh
+./updateAndInstallFAH.sh
 ```
 check if everything is fine use
 ```sh
 sudo /etc/init.d/FAHClient log
 ```
+for reloading 
+```sh
+sudo /etc/init.d/FAHClient reload
+```
+
+## further documentaiton
+https://foldingathome.org/support/faq/installation-guides/linux/command-line-options/
