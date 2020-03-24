@@ -36,7 +36,7 @@ change the region.... and so on
 
 Download the script
 ```sh
-wget https://github.com/Korny666/fah/blob/master/updateAndInstalFAH.sh
+wget https://github.com/Korny666/fah/blob/master/updateAndInstallFAH.sh
 ```
 grant executable rights
 ```sh
