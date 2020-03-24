@@ -1,4 +1,4 @@
-# fah easy guide
+# folding@home easy guide with google cloud
 
 ## Goolge account
 create an account at http://cloud.google.com/ 
