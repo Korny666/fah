@@ -37,33 +37,22 @@ change the region.... and so on
 You can copy paste (Ctrl+C and Ctrl+V) the oneline command or do it Step by Step
 ### One-Liner
 ```sh
-wget https://raw.githubusercontent.com/Korny666/fah/master/updateAndInstallFAH.sh && chmod +x updateAndInstallFAH.sh && ./updateAndInstallFAH.sh
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install bzip2 htop less && wget https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.5/latest.deb && sudo dpkg -i --force-depends latest.deb
 ```
+this will lead you to the setup
 ### Setup Folding@Home
-Insert your name
+#### Folding@home User Name:
+Insert a nicname you want
+#### Folding@home Team Number
+My team is 239199 (GameStarVsCorona)
+#### Folding@home Passkey:
+Optional press enter to continue
+#### How much of your system resources should be used initially?
+Choose Full (arrow keys) and press enter
+#### Should FAHClient be automatically started?
+**YES** and Start at the beginning
 
-My team is 239199
-
-Optional go further
-
-Choose Full
-
-and Start at the beginning
-
-
-### Step by Step
-Download the script
-```sh
-wget https://raw.githubusercontent.com/Korny666/fah/master/updateAndInstallFAH.sh
-```
-grant executable rights
-```sh
-chmod +x updateAndInstallFAH.sh
-```
-execute
-```sh
-./updateAndInstallFAH.sh
-```
+### Checking on the client
 check if everything is fine use
 ```sh
 sudo /etc/init.d/FAHClient log
@@ -73,5 +62,15 @@ for reloading
 sudo /etc/init.d/FAHClient reload
 ```
 
+## Step by step
+```sh
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install bzip2 htop less
+
+wget https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.5/latest.deb
+
+sudo dpkg -i --force-depends latest.deb
+```
 ## further documentaiton
 https://foldingathome.org/support/faq/installation-guides/linux/command-line-options/
