@@ -34,6 +34,24 @@ change the region.... and so on
 
 ## script to setup vm for folding@home
 
+You can copy paste (Ctrl+C and Ctrl+V) the oneline command or do it Step by Step
+### One-Liner
+```sh
+wget https://raw.githubusercontent.com/Korny666/fah/master/updateAndInstallFAH.sh && chmod +x updateAndInstallFAH.sh && ./updateAndInstallFAH.sh
+```
+### Setup Folding@Home
+Insert your name
+
+My team is 239199
+
+Optional go further
+
+Choose Full
+
+and Start at the beginning
+
+
+### Step by Step
 Download the script
 ```sh
 wget https://raw.githubusercontent.com/Korny666/fah/master/updateAndInstallFAH.sh
