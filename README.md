@@ -61,6 +61,10 @@ for reloading
 ```sh
 sudo /etc/init.d/FAHClient reload
 ```
+for command list 
+```sh
+sudo /etc/init.d/FAHClient --help
+```
 
 ## Step by step
 ```sh
