@@ -38,6 +38,8 @@ change the region.... and so on
 
 ## commands to setup vm for folding@home
 
+Open the console of the vm when creation was successful. Click on the **SSH** Button
+
 You can copy paste (Ctrl+C and Ctrl+V) the [One-Liner](https://github.com/Korny666/fah/blob/master/README.md#one-liner) command or do it [Step by Step](https://github.com/Korny666/fah/blob/master/README.md#step-by-step)
 ### One-Liner
 ```sh
