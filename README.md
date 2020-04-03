@@ -15,9 +15,13 @@ i choosed US because its cheapest
 ##### Machine family
 Leave General Purpose
 ##### Series
-and choose some cpu of the second generation (I used N2D)
+and choose E2
 ##### Machine Type 
-I choosed something with 8 cores
+Custom
+##### Cores
+16vCPU (highest)
+##### RAM
+8GB (lowest - we need computing power)
 
 #### Boot disk 
 left it default with Debia GNU/Linux 9
