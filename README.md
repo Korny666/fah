@@ -2,6 +2,7 @@
 
 ## Goolge account
 create an account at http://cloud.google.com/ 
+It is for free! -> https://cloud.google.com/free/docs/gcp-free-tier
 
 ## VM Setup
 when finished got to https://console.cloud.google.com/
@@ -50,9 +51,9 @@ this will lead you to the setup
 #### Folding@home User Name:
 Insert a nicname you want
 #### Folding@home Team Number
-My team is 239199 (GameStarVsCorona)
+Optional - You can insert a team ID if you have one - press enter to continue
 #### Folding@home Passkey:
-Optional press enter to continue
+Optional - press enter to continue
 #### How much of your system resources should be used initially?
 Choose Full (arrow keys) and press enter
 #### Should FAHClient be automatically started?
